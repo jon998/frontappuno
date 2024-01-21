@@ -8,11 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        display: ['Source Serif Pro', 'Georgia', 'serif'],
+        body: ['Synonym', 'system-ui', 'sans-serif'],
       },
+      colors: {
+        nav: "#323D42",
+        page: "#293331",
+        card: "#43A896",
+        button:"#43A896",
+        "button-hover": "#354240",
+        "card-hover": "#46756D",
+        "default-text": "#2CDBBB",
+        "blue-accent": "#3b82f6",
+        "blue-accent-hover": "#2563eb", 
+      }
     },
   },
   plugins: [],
